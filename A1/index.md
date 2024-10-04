@@ -3,10 +3,16 @@ title: "Brantley Cooper - Developer Portfolio"
 layout: "layout.njk"
 ---
 
-# Welcome to My Portfolio
-Hi, I'm Brantley Cooper, a Student at Durham College. Welcome to my Portfolio Site.
+<div class="box">
+  <h1>Welcome to My Portfolio</h1>
+  <p>Hi, I'm Brantley Cooper, a Student at Durham College. Welcome to my Portfolio Site.</p>
+</div>
 
-## Projects
-{% for project in collections.projects %}
-  - [{{ project.data.title }}]({{ project.url }}): {{ project.data.description }}
-{% endfor %}
+<div class="box">
+  <h2>Projects</h2>
+  <ul>
+    {% for project in collections.projects %}
+      <li><a href="{{ project.url }}">{{ project.data.title }}</a>: {{ project.data.description }}</li>
+    {% endfor %}
+  </ul>
+</div>
