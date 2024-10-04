@@ -1,0 +1,16 @@
+---
+layout: "layout.njk"
+title: "Projects"
+---
+
+<h1 class="box">My Projects</h1>
+
+<ul class="box">
+  {% for project in collections.projects %}
+    <li class="project">
+      <h2><a href="{{ project.url }}">{{ project.data.title }}</a></h2>
+      <p>{{ project.data.description }}</p>
+      <a href="{{ project.data.repo_link }}" class="box">View on GitHub</a>
+    </li>
+  {% endfor %}
+</ul>

@@ -1,0 +1,105 @@
+/* General styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a2e; 
+    color: #eaeaea; 
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #16213e;
+    padding: 1rem;
+  }
+  
+  header nav a {
+    color: #eaeaea;
+    margin-right: 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  header nav a:hover {
+    color: #00aaff; /* Light blue hover effect */
+  }
+  
+  /* Container for the main content */
+  main {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem; /* Space between content sections */
+  }
+  
+  /* Boxed content styling */
+  .box {
+    background-color: #222831; /* Dark gray/blueish box color */
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  }
+  
+  /* Add spacing between project elements */
+  .project {
+    border: 2px solid #00aaff;
+    border-radius: 8px;
+    padding: 2rem; /* Increased padding for better spacing */
+    background-color: #1f4068;
+    margin-bottom: 2rem; /* Add margin between projects */
+  }
+  
+  .project a {
+    display: inline-block;
+    margin-top: 1rem; /* Space between the description and the button */
+    padding: 0.5rem 1rem; /* Padding inside the button */
+    background-color: #00aaff;
+    color: #1a1a2e;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .project a:hover {
+    background-color: #ffffff;
+    color: #00aaff; /* Hover effect on project links */
+  }
+  
+  h1, h2 {
+    color: #00aaff; /* Light blue headers */
+  }
+  
+  /* Footer styling */
+  footer {
+    background-color: #16213e;
+    color: #eaeaea;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  /* Blog post styling */
+  .blog-post {
+    border: 2px solid #00aaff;
+    border-radius: 8px;
+    padding: 1.5rem; /* Padding inside the blog post box */
+    background-color: #1f4068;
+    margin-bottom: 2rem; /* Spacing between blog posts */
+  }
+  
+  .blog-post a {
+    color: #00aaff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .blog-post a:hover {
+    color: #ffffff; /* Hover effect on blog post links */
+  }
+  
